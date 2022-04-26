@@ -17,6 +17,7 @@ body{
 
 header{
     padding: 0;
+
 }
 
 header .contenedor{
@@ -42,6 +43,8 @@ header .logotipo{
     height: 70px;
     background-color: #eee;
     font-size: 1.3em;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -51,8 +54,7 @@ header nav a{
     margin-right: 20px;
 }
 
-header nav a:hover,
-header nav a.activo{
+header nav a:hover{
     background-color: #9e68fa;
     padding: 10px;
     border-radius: 6px;
