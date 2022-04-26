@@ -6,6 +6,15 @@
     box-sizing: border-box;
 
 }
+
+:root{ /* root es para trabajar con la raiz del documento, para crear variables por ejemplo */
+    --shadow: 0 8px 8px;
+    --color_shadow: #00000033;
+}
+
+
+
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -97,7 +106,7 @@ header nav a:hover{
 
 .texto{
     font-size: 24px;
-    color: var(--gray1);
+    color: #000;
     text-shadow: var(--shadow) var(--color_shadow);
     margin: 15px 0;
 }
@@ -113,7 +122,7 @@ header nav a:hover{
     text-decoration: none;
     color: var(--balck2);
     font-weight: 700; /* especifica el grueso de la letra */
-    box-shadow: 0 8px 8px #00000033;
+    box-shadow: var(--shadow) var(--color_shadow);
     border-radius: 6px;
 }
 
