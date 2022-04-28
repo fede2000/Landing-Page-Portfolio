@@ -72,7 +72,7 @@ header nav a:hover{
 
 /* hero__main  - contenido principal */
 
-.hero__main{
+.head__main{
     height: calc(100vh - 70px);
     display: flex; /* Con display flex los elementos o cajas se colocan una al lado de la otra */
     flex-direction: row;
