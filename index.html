@@ -6,28 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&family=Trocchi&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1fc8959a7c.js" crossorigin="anonymous"></script>
     <title>Landing Page Portfolio</title>
 </head>
 <body>
-    <header id="inicio">
-        <div class="container nav__container">
-            <h2 class="logotipo">fedealmaraz</h2>
-            <nav>
-                <a href="#inicio">Inicio</a>
-                <a href="#sobre__mi">Sobre mi</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contacto</a>
-            </nav>
-        </div>
+    <header class="head">
+        <nav class="nav__head">
+            <div class="container nav__container">
+                <div class="logo">
+                    <h2 class="logotipo">fedealmaraz</h2>
+                </div>
+                <div class="menu">
+                    <a href="#" class="menu__link">Inicio</a>
+                    <a href="#" class="menu__link">Sobre Mi</a>
+                    <a href="#" class="menu__link">Proyectos</a>
+                    <a href="#" class="menu__link">Contacto</a>
+                </div>
+            </div>
+        </nav>
+
         <section class="container head__main">
             <div class="head__texts">
                 <h1 class="titulo">Soy Federico Almaraz,futuro <span class="titulo-active">Programador FullStack.</span></h1>
                 <p class="texto">Actualmente estoy en la carrera de Programacion FullStack en Nucba y en la carrera de Lic. en Sistemas de Informacion en la Universidad Nacional de Lujan<span class="texto-active">.</span></p>
+                <div class="button">
+                    <a href="#" class="btn-contactame">Contactame</a>
+                </div>
 
-                <a href="#" class="btn-contactame">Contactame</a>
             </div>
-            <img src="images/undraw_programming_re_kg9v.svg" class="img__containerockup">
-        </section>
+            <img src="images/undraw_programming_re_kg9v.svg" class="img__container">
+        </section> 
 
         <section class="container info" id="sobre__mi">
             <div class="info__container">
@@ -36,7 +44,73 @@
         </section>
     </header>
     <main>
-        <div class="Contenido__principal"></div>
+        <section class="adventages">
+            <div class="container">
+                <h2 class="subtitle">Mis Ventajas</h2>
+                <p class="copy__section">Mis Habilidades que beneficiaran a la empresa y al grupo de trabajo:</p>
+
+                <article class="container__cards">
+                    <div class="card">
+                        <img src="/images/communication.svg" class="card__img">
+                        <div class="card__text">
+                            <h3 class="card__title">Comunicación</h3>
+                            <p class="card__copy">Considero que la comunicacion es tan importante como la habilidad tecnica,por ese motivo busco entablar buenas relaciones de comunicación para aprender y ayudar.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/images/communication.svg" class="card__img">
+                        <div class="card__text">
+                            <h3 class="card__title">Comunicación</h3>
+                            <p class="card__copy">Considero que la comunicacion es tan importante como la habilidad tecnica,por ese motivo busco entablar buenas relaciones de comunicación para aprender y ayudar.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/images/communication.svg" class="card__img">
+                        <div class="card__text">
+                            <h3 class="card__title">Comunicación</h3>
+                            <p class="card__copy">Considero que la comunicacion es tan importante como la habilidad tecnica,por ese motivo busco entablar buenas relaciones de comunicación para aprender y ayudar.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="how_we_work">
+            <div class="container">
+                <h2 class="subtitle">Como Trabajo?</h2>
+                <p class="copy__section">Mi forma de organizarme en mis proyectos</p>
+
+                <article class="container__cards">
+                    <div class="card">
+                        <div class="number__circle">1</div>
+                        <div class="card__text">
+                            <h3 class="card__title">Orden y limpieza</h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptas asperiores fugiat molestias necessitatibus blanditiis reprehenderit nulla quibusdam vero animi.</p></div>
+                    </div>
+                    <div class="card">
+                        <div class="number__circle">2</div>
+                        <div class="card__text">
+                            <h3 class="card__title">Divide y vencerás</h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptas asperiores fugiat molestias necessitatibus blanditiis reprehenderit nulla quibusdam vero animi.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="number__circle">3</div>
+                        <div class="card__text">
+                            <h3 class="card__title">Calidad como requisito</h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptas asperiores fugiat molestias necessitatibus blanditiis reprehenderit nulla quibusdam vero animi.</p>
+
+                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="number__circle">4</div>
+                        <div class="card__text">
+                            <h3 class="card__title">Lorem ipsum dolor</h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptas asperiores fugiat molestias necessitatibus blanditiis reprehenderit nulla quibusdam vero animi.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
     </main>
     
 </body>
