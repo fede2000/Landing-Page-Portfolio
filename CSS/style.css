@@ -34,12 +34,14 @@ body{
 .head{
     width: 100%;
     min-height: 100vh;
+    
 
 }
 
 .nav__head{
     height: 70px;
     border-bottom: 1px solid black;
+    
 }
 
 .nav__container{
@@ -219,8 +221,32 @@ body{
     margin-bottom: 16px;
 }
 
+
+/*  how we work */
+
+.how_we_work{
+    background: #e5b5fe;
+}
+.card_how-we-work{
+    width: 320px;
+    padding: 30px 0;
+    overflow: hidden;
+    background-color: #fff;
+    /* background: linear-gradient(180deg, #9e68fa 0%, #7342c9 100%); */
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    margin: 0 10px;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px #1a1b1f;
+}
+
+.card_how-we-work .card__title{
+    color: #7342c9;
+}
 .number__circle{
-    background-color: #b593f1;
+    background-color: rgba(34, 3, 87, 0.871);
+    color: white;
     width: 110px;
     height: 110px;
     border-radius: 50%;
@@ -233,18 +259,24 @@ body{
 
 /*  ------- SECTION PROJECTS ----------- */
 
-.container__project{
+.projects{
+    background: #eee;
+}
+
+.container__projects{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .project{
     width: 400px;
     padding: 30px 0;
     overflow: hidden;
-    background: linear-gradient(180deg, #9e68fa 0%, #7342c9 100%);
+    background-color: #fff;
+    /* background: linear-gradient(180deg, #9e68fa 0%, #7342c9 100%); */
     border-radius: 10px;
     position: relative;
     text-align: center;
@@ -252,3 +284,52 @@ body{
     box-shadow: 0 0 6px #1a1b1f;
 }
 
+.project__img{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.img{
+    width: 100%;
+    height: 250px;
+    border: .5px solid black;
+    border-radius: 6px;
+}
+.projects .card__title{
+    color: #7342c9;
+}
+
+.project a{
+    text-decoration: none;
+}
+
+
+/*  foooter */
+
+.footer{
+    background-color: rgba(34, 3, 87, 0.871);
+    color: white;
+}
+.footer__container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.footer__img{
+    width: 35px;
+    height: 35px;
+}
+
+.footer__copy{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #bbb;
+    border-top: 1px solid #555;
+
+}
