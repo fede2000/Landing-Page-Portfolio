@@ -226,7 +226,7 @@ body{
 }
 
 .card__copy{
-    color: #000;
+    color: white;
     margin-bottom: 16px;
 }
 
@@ -234,20 +234,27 @@ body{
 /*  how we work */
 
 .how_we_work{
-    background: #e5b5fe;
+    background: rgb(30,13,64);
+    background: linear-gradient(180deg, rgb(30, 13, 64) 0%, rgba(25,9,56,1) 41%, rgba(49,24,78,1) 79%);
+
 }
 .card_how-we-work{
     width: 320px;
     padding: 30px 0;
     overflow: hidden;
-    background-color: #fff;
-    /* background: linear-gradient(180deg, #9e68fa 0%, #7342c9 100%); */
+    background-color: rgba(0, 0, 0, 0.279);
+
+
     border-radius: 10px;
     position: relative;
     text-align: center;
     margin: 0 10px;
     margin-bottom: 60px;
     box-shadow: 0 0 6px #1a1b1f;
+}
+
+.card_how-we-work:hover{
+    box-shadow: 0 0 6px #000;
 }
 
 .card_how-we-work .card__title{
@@ -269,7 +276,8 @@ body{
 /*  ------- SECTION PROJECTS ----------- */
 
 .projects{
-    background: #eee;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(38,15,78,1) 36%, rgba(0,0,0,1) 100%);
 }
 
 .container__projects{
@@ -284,13 +292,17 @@ body{
     width: 400px;
     padding: 30px 0;
     overflow: hidden;
-    background-color: #fff;
-    /* background: linear-gradient(180deg, #9e68fa 0%, #7342c9 100%); */
+
+    border: 1px solid white;
     border-radius: 10px;
     position: relative;
     text-align: center;
     margin-bottom: 60px;
-    box-shadow: 0 0 6px #1a1b1f;
+    box-shadow: 0 0 6px #fff;
+}
+
+.project:hover{
+    
 }
 
 .project__img{
@@ -306,7 +318,7 @@ body{
     border-radius: 6px;
 }
 .projects .card__title{
-    color: #7342c9;
+    color: whitesmoke;
 }
 
 .project a{
@@ -317,8 +329,10 @@ body{
 /*  foooter */
 
 .footer{
-    background-color: rgba(34, 3, 87, 0.871);
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 38%, rgba(0,0,0,1) 78%);
     color: white;
+    border-top: .5px solid #222;
 }
 .footer__container{
     width: 90%;
