@@ -374,6 +374,7 @@ input{
         padding: 15px 25px;
     }
 
+ 
     /* cards */
     .subtitle{
         font-size: 32px;
@@ -408,6 +409,10 @@ input{
         margin: 0 auto;
     }
 
+    .img__container{
+        width: 90%;
+    }
+
     /* nav  */
 
     .nav__container{
@@ -437,7 +442,11 @@ input{
 
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:650px){
+
+
+
+
     .menu{
         position: fixed;
         height: 0;
@@ -537,4 +546,7 @@ input{
         -ms-transform: rotate(-45deg);
         -o-transform: rotate(-45deg);
     }
+
+
+
 }
